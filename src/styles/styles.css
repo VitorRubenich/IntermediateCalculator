@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Container*/
+.container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  border: 0.1px solid rgb(0, 0, 0);
+}
+
+/*Display*/
+#display {
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px 8px;
+}
+/*Buttons*/
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/*Button*/
+.button {
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid black;
+}
+
+/*Equal*/
+#equal {
+  background-color: blue;
+  color: white;
+}
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
